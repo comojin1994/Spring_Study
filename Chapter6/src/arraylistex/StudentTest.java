@@ -2,8 +2,8 @@ package arraylistex;
 
 public class StudentTest {
     public static void main(String[] args) {
-        Student studentKim = new Student("Lee");
-        Student studentLee = new Student("Kim");
+        Student studentKim = new Student("Lee", 1000);
+        Student studentLee = new Student("Kim", 1001);
 
         studentKim.setScore("Korean", 100);
         studentKim.setScore("Math", 90);
