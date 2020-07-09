@@ -7,6 +7,6 @@ public class ComputerTest {
         computer.display();
         computer.turnOff();
 
-        Notebook mynote = new MyNoteBook();
+        NoteBook mynote = new MyNoteBook();
     }
 }
