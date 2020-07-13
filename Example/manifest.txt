@@ -1,0 +1,3 @@
+Main-Class: kr.co.example.Main
+Class-Path: lib/logback-classic.jar lib/logback-core.jar lib/slf4j-api.jar
+
