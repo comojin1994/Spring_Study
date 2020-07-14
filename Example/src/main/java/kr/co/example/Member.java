@@ -1,8 +1,6 @@
 package kr.co.example;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -10,10 +8,14 @@ import java.sql.SQLException;
 @ToString
 @Getter
 @Setter
+@EqualsAndHashCode
+@NoArgsConstructor
+@AllArgsConstructor
+@RequiredArgsConstructor
 public class Member {
     private int id;
-    private String username;
-    private String password;
+    @NonNull private String username;
+    @NonNull private String password;
 
     public Member(ResultSet resultSet){
         try {
@@ -24,5 +26,4 @@ public class Member {
             throwables.printStackTrace();
         }
     }
-
 }
