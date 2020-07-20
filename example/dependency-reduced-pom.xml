@@ -18,7 +18,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>kr.co.example.Main</mainClass>
+                  <mainClass>kr.co.example.cli.Main</mainClass>
                 </transformer>
               </transformers>
             </configuration>
