@@ -4,12 +4,13 @@ public class Book {
     private int bookID;
     private String name;
 
-    public Book(String name, int bookID){
+    public Book(String name, int bookID) {
         this.name = name;
         this.bookID = bookID;
     }
 
-    public Book(){}
+    public Book() {
+    }
 
     public int getBookID() {
         return bookID;

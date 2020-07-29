@@ -14,7 +14,7 @@ public class ArrayListTest {
             System.out.println(list.get(i));
         }
 
-        for(String s: list ){
+        for (String s : list) {
             System.out.println(s);
         }
     }

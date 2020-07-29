@@ -16,7 +16,7 @@ public class DoWhileExample {
         Scanner scanner = new Scanner(System.in);
         int input;
         int sum = 0;
-        do{
+        do {
             input = scanner.nextInt();
             sum += input;
         } while (input != 0);

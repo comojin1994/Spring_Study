@@ -5,16 +5,16 @@ public class Bus {
     int passengerCount;
     int money;
 
-    public Bus(int busNumber){
+    public Bus(int busNumber) {
         this.busNumber = busNumber;
     }
 
-    public void take(int money){
+    public void take(int money) {
         this.money += money;
         this.passengerCount++;
     }
 
-    public void showBusInfo(){
+    public void showBusInfo() {
         System.out.println(busNumber + " has " + passengerCount + " and " + money);
     }
 }

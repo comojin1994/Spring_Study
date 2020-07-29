@@ -10,7 +10,7 @@ public class CarTest {
         carList.add(new Grandeur());
         carList.add(new Genesis());
 
-        for ( Car car : carList){
+        for (Car car : carList) {
             car.run();
         }
     }

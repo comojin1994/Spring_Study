@@ -7,21 +7,22 @@ public class Student {
     private String name;
     private ArrayList<Book> bookList = new ArrayList<Book>();
 
-    public Student(String name, int studentID){
+    public Student(String name, int studentID) {
         this.name = name;
         this.studentID = studentID;
     }
 
-    public Student(){}
+    public Student() {
+    }
 
-    public void setBookList(String name, int bookID){
+    public void setBookList(String name, int bookID) {
         Book book = new Book(name, bookID);
         bookList.add(book);
     }
 
-    public void showStudentInfo(){
+    public void showStudentInfo() {
         System.out.print(this.name + "'s books : ");
-        for(Book book: bookList){
+        for (Book book : bookList) {
             System.out.print(book.getName() + " ");
         }
         System.out.println();

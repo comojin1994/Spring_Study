@@ -7,7 +7,7 @@ public class Student {
     Subject korea;
     Subject math;
 
-    public Student(int id, String name){
+    public Student(int id, String name) {
         studentID = id;
         studentName = name;
 
@@ -15,17 +15,17 @@ public class Student {
         math = new Subject();
     }
 
-    public void setKoreaSubject(String name, int score){
+    public void setKoreaSubject(String name, int score) {
         korea.subjectName = name;
         korea.subjectScore = score;
     }
 
-    public void setMathSubject(String name, int score){
+    public void setMathSubject(String name, int score) {
         math.subjectName = name;
         math.subjectScore = score;
     }
 
-    public void showStudentScore(){
+    public void showStudentScore() {
         int total = korea.subjectScore + math.subjectScore;
         System.out.println(studentName + "'s total score is " + total);
     }

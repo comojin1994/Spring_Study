@@ -1,6 +1,6 @@
 package polymorphism;
 
-public class GoldCustomer extends Customer{
+public class GoldCustomer extends Customer {
 
     double salesRatio;
 
@@ -15,6 +15,6 @@ public class GoldCustomer extends Customer{
     @Override
     public int calPrice(int price) {
         bonusPoint += price * bonusRatio;
-        return price - (int)(price * salesRatio);
+        return price - (int) (price * salesRatio);
     }
 }

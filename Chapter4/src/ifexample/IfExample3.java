@@ -8,7 +8,7 @@ public class IfExample3 {
         int score = scanner.nextInt();
         char grade = 'F';
 
-        if (score >= 90){
+        if (score >= 90) {
             grade = 'A';
         } else if (score >= 80) {
             grade = 'B';
@@ -25,7 +25,7 @@ public class IfExample3 {
         int b = 20;
         int max;
 
-        max = (a > b)? a: b;
+        max = (a > b) ? a : b;
         System.out.println(max);
     }
 }

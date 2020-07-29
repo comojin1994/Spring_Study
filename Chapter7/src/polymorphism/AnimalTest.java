@@ -4,40 +4,40 @@ import java.util.ArrayList;
 
 class Animal {
 
-    public void move(){
+    public void move() {
         System.out.println("Animal is moving.");
     }
 }
 
-class Human extends Animal{
+class Human extends Animal {
     @Override
     public void move() {
         System.out.println("Human is moving.");
     }
 
-    public void readBooks(){
+    public void readBooks() {
         System.out.println("Human read books.");
     }
 }
 
-class Tiger extends Animal{
+class Tiger extends Animal {
     @Override
     public void move() {
         System.out.println("Tiger is moving.");
     }
 
-    public void hunting(){
+    public void hunting() {
         System.out.println("Tiger is hunting.");
     }
 }
 
-class Eagle extends Animal{
+class Eagle extends Animal {
     @Override
     public void move() {
         System.out.println("Eagle is flying.");
     }
 
-    public void flying(){
+    public void flying() {
         System.out.println("Eagle is strictly flying.");
     }
 }
@@ -50,8 +50,8 @@ public class AnimalTest {
         Animal eAnimal = new Eagle();
 
 //        Eagle human = (Eagle)hAnimal;
-        if (hAnimal instanceof Human){
-            Human human = (Human)hAnimal;
+        if (hAnimal instanceof Human) {
+            Human human = (Human) hAnimal;
             human.readBooks();
         }
 
@@ -72,17 +72,17 @@ public class AnimalTest {
 //        }
     }
 
-    public void testDownCasting(ArrayList<Animal> list){
-        for (int i = 0; i < list.size(); i++){
+    public void testDownCasting(ArrayList<Animal> list) {
+        for (int i = 0; i < list.size(); i++) {
             Animal animal = list.get(i);
-            if (animal instanceof Human){
-                Human human = (Human)animal;
+            if (animal instanceof Human) {
+                Human human = (Human) animal;
                 human.readBooks();
-            } else if (animal instanceof Tiger){
-                Tiger tiger = (Tiger)animal;
+            } else if (animal instanceof Tiger) {
+                Tiger tiger = (Tiger) animal;
                 tiger.hunting();
-            } else if (animal instanceof Eagle){
-                Eagle eagle = (Eagle)animal;
+            } else if (animal instanceof Eagle) {
+                Eagle eagle = (Eagle) animal;
                 eagle.flying();
             } else {
                 System.out.println("Error");
@@ -90,7 +90,7 @@ public class AnimalTest {
         }
     }
 
-    public void moveAnimal(Animal animal){
+    public void moveAnimal(Animal animal) {
         animal.move();
     }
 

@@ -8,8 +8,8 @@ public class MyDate {
 
     private boolean isValid;
 
-    public void showDate(){
-        if (isValid){
+    public void showDate() {
+        if (isValid) {
             System.out.println(year + "." + month + "." + day);
         } else {
             System.out.println("Error");
@@ -18,7 +18,7 @@ public class MyDate {
     }
 
     public void setMonth(int month) {
-        if (month < 1 || month > 12){
+        if (month < 1 || month > 12) {
             isValid = false;
         } else {
             isValid = true;
@@ -38,11 +38,11 @@ public class MyDate {
         return month;
     }
 
-    public void setDay(int day){
+    public void setDay(int day) {
         this.day = day;
     }
 
-    public int getDay(){
+    public int getDay() {
         return day;
     }
 

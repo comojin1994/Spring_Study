@@ -10,7 +10,7 @@ public class BookArrayTest {
         library[3] = new Book("Book4", "Wu");
         library[4] = new Book("Book5", "Jung");
 
-        for (int i = 0 ; i < library.length; i++){
+        for (int i = 0; i < library.length; i++) {
             System.out.println(library[i]);
             library[i].showBookInfo();
         }

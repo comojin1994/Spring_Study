@@ -5,20 +5,20 @@ public class Person {
     String name;
     int age;
 
-    public Person(){
+    public Person() {
         this("No Name", 1);
     }
 
-    public Person(String name, int age){
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public void showInfo(){
+    public void showInfo() {
         System.out.println(name + "," + age);
     }
 
-    public Person getSelf(){
+    public Person getSelf() {
         return this;
     }
 }

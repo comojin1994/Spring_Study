@@ -8,7 +8,7 @@ public class Order {
     String orderThingNumber;
     String orderAddress;
 
-    void orderInfo(){
+    void orderInfo() {
         System.out.println("주문 번호 : " + orderNumber);
         System.out.println("주문자 아이디 : " + orderId);
         System.out.println("주문 날짜 : " + orderDate);

@@ -1,6 +1,6 @@
 package inherpolyex;
 
-public class GoldCustomer extends Customer{
+public class GoldCustomer extends Customer {
     public GoldCustomer(int customerID, String customerName) {
         super(customerID, customerName);
 

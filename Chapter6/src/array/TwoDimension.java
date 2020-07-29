@@ -9,14 +9,14 @@ public class TwoDimension {
 //        System.out.println(arr[0].length);
 //        System.out.println(arr[1].length);
 
-        for ( int[] row : arr){
-            for ( int col : row){
+        for (int[] row : arr) {
+            for (int col : row) {
                 System.out.println(col);
             }
         }
         System.out.println("===============");
-        for ( int i = 0; i < arr.length; i++){
-            for ( int j = 0; j < arr[i].length; j++){
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();

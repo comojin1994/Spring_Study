@@ -1,6 +1,6 @@
 package inherpolyex;
 
-public class VIPCustomer extends Customer{
+public class VIPCustomer extends Customer {
 
     private int agentID;
 

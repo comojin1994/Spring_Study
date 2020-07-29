@@ -1,6 +1,6 @@
 package template3;
 
-public class Sonata extends Car{
+public class Sonata extends Car {
     @Override
     public void start() {
         System.out.println("Sonata turn on");

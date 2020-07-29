@@ -27,7 +27,7 @@ public class OperatorEx3 {
         int num2 = 10;
         int num3 = 20;
 
-        int num = (num2 > num3)? num2: num3;
+        int num = (num2 > num3) ? num2 : num3;
         System.out.println(num);
     }
 }

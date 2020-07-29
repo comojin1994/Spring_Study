@@ -15,7 +15,7 @@ public class Customer {
 //        System.out.println("log : Customer generate");
 //    }
 
-    public Customer(int customerID, String customerName){
+    public Customer(int customerID, String customerName) {
         this.customerID = customerID;
         this.customerName = customerName;
 
@@ -25,12 +25,12 @@ public class Customer {
 //        System.out.println("log : Customer(int, String) generate");
     }
 
-    public int calcPrice(int price){
+    public int calcPrice(int price) {
         bonusPoint += price * bonusRatio;
         return price;
     }
 
-    public String showCustomerInfo(){
+    public String showCustomerInfo() {
         return customerName + "님의 등급은 " + customerGrade + "이며, 적립된 보너스 포인트는 " + bonusPoint + "점 입니다.";
     }
 

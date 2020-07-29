@@ -5,21 +5,21 @@ public class Person {
     private int age;
     private int money;
 
-    public Person(String name, int age, int money){
+    public Person(String name, int age, int money) {
         setPersonName(name);
         setAge(age);
         setMoney(money);
     }
 
-    public void takeStar(int menu){
+    public void takeStar(int menu) {
         setMoney(this.money - menu);
     }
 
-    public void takeBean(int menu){
+    public void takeBean(int menu) {
         setMoney(this.money - menu);
     }
 
-    public void showInfo(){
+    public void showInfo() {
         System.out.println(personName + " has " + money);
     }
 

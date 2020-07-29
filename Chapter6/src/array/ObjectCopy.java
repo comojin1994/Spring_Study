@@ -20,13 +20,13 @@ public class ObjectCopy {
         library[0].setTitle("other");
         library[0].setAuthor("KimKim");
 
-        for (Book book : library){
+        for (Book book : library) {
             book.showBookInfo();
         }
 
         System.out.println("=====================");
 
-        for (Book book : copyLibrary){
+        for (Book book : copyLibrary) {
             book.showBookInfo();
         }
     }

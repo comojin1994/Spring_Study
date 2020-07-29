@@ -1,6 +1,6 @@
 package polymorphism;
 
-public class VIPCustomer extends Customer{
+public class VIPCustomer extends Customer {
     double salesRatio;
     private int agentID;
 
@@ -15,6 +15,6 @@ public class VIPCustomer extends Customer{
     @Override
     public int calPrice(int price) {
         bonusPoint += price * bonusRatio;
-        return price - (int)(price * salesRatio);
+        return price - (int) (price * salesRatio);
     }
 }

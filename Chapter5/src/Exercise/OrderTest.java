@@ -10,6 +10,7 @@ public class OrderTest {
         firstOrder.orderThingNumber = "PD0345-12";
         firstOrder.orderAddress = "서울시 영등포구 여의도동 20번지";
 
-        firstOrder.orderInfo();;
+        firstOrder.orderInfo();
+        ;
     }
 }

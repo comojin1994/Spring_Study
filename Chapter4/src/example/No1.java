@@ -20,21 +20,26 @@ public class No1 {
             } else if (operator.equals("*")) {
                 result = n * m;
             } else if (operator.equals("/")) {
-                result = (double)n / (double)m;
+                result = (double) n / (double) m;
             } else {
                 System.out.println("Error");
             }
-        } else if (case_.equals("switch")){
-            switch (operator){
-                case "+": result = n + m;
+        } else if (case_.equals("switch")) {
+            switch (operator) {
+                case "+":
+                    result = n + m;
                     break;
-                case "-": result = n - m;
+                case "-":
+                    result = n - m;
                     break;
-                case "*": result = n * m;
+                case "*":
+                    result = n * m;
                     break;
-                case "/": result = (double)n / (double)m;
+                case "/":
+                    result = (double) n / (double) m;
                     break;
-                default: System.out.println("Error");
+                default:
+                    System.out.println("Error");
             }
         }
         System.out.println(Integer.toString(n) + " " + operator + " " + Integer.toString(m) + " = " + Double.toString(result));

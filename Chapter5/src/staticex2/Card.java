@@ -4,12 +4,12 @@ public class Card {
     public int cardNumber;
     private static int serialNumber = 1000;
 
-    public Card(){
+    public Card() {
         this.cardNumber = serialNumber;
         serialNumber++;
     }
 
-    public int getCardNumber(){
+    public int getCardNumber() {
         return cardNumber;
     }
 }

@@ -1,6 +1,6 @@
 package template;
 
-public class AICar extends Car{
+public class AICar extends Car {
     @Override
     public void dirve() {
         System.out.println("This car is auto");

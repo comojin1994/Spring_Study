@@ -20,14 +20,14 @@ public class CustomerTest {
 
         System.out.println("========== Print Customer Info ==========");
 
-        for (Customer customer: customerList){
+        for (Customer customer : customerList) {
             System.out.println(customer.showCustomerInfo());
         }
 
         System.out.println("========== SalesRate and Bonus points ==========");
 
         int price = 10000;
-        for (Customer customer: customerList){
+        for (Customer customer : customerList) {
             int cost = customer.calcPrice(price);
             System.out.println(customer.getCustomerName() + " pays " + cost);
             System.out.println(customer.getCustomerName() + " has " + customer.bonusPoint + " points.");

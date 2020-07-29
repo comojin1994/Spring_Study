@@ -1,6 +1,6 @@
 package template2;
 
-public class BeginnerLevel extends PlayerLevel{
+public class BeginnerLevel extends PlayerLevel {
     @Override
     public void run() {
         System.out.println("Beginner is running");

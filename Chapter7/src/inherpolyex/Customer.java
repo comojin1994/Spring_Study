@@ -32,7 +32,7 @@ public class Customer {
         this.customerGrade = customerGrade;
     }
 
-    public Customer(int customerID, String customerName){
+    public Customer(int customerID, String customerName) {
         this.customerID = customerID;
         this.customerName = customerName;
 
@@ -43,12 +43,12 @@ public class Customer {
 
     }
 
-    public String showCustomerInfo(){
+    public String showCustomerInfo() {
         return (this.customerName + "'s grade is " + this.customerGrade + " and has " + bonusPoint + " points.");
     }
 
-    public int calcPrice(int price){
+    public int calcPrice(int price) {
         bonusPoint += price * bonusRate;
-        return price - (int)(price * salesRate);
+        return price - (int) (price * salesRate);
     }
 }

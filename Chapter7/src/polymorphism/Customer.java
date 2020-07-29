@@ -8,7 +8,7 @@ public class Customer {
     int bonusPoint;
     double bonusRatio;
 
-    public Customer(int customerID, String customerName){
+    public Customer(int customerID, String customerName) {
         this.customerID = customerID;
         this.customerName = customerName;
 
@@ -16,12 +16,12 @@ public class Customer {
         bonusRatio = 0.01;
     }
 
-    public int calPrice(int price){
+    public int calPrice(int price) {
         bonusPoint += price * bonusRatio;
         return price;
     }
 
-    public String showCustomerInfo(){
+    public String showCustomerInfo() {
         return customerName + "님의 등급은 " + customerGrade + "이며, 적립된 보너스 포인트는 " + bonusPoint + "점 입니다.";
     }
 

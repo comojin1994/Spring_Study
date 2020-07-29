@@ -7,7 +7,7 @@ public class Student {
     public String studentName;
     public String address;
 
-    public Student(int id, String name){
+    public Student(int id, String name) {
         studentID = id;
         studentName = name;
         address = "주소 없음";
@@ -15,28 +15,28 @@ public class Student {
         studentID = serialNum;
     }
 
-    public Student(String name){
+    public Student(String name) {
         studentName = name;
         serialNum++;
         studentID = serialNum;
     }
 
-    public void showStudentInfo(){
+    public void showStudentInfo() {
         System.out.println(studentName + ", " + address);
     }
 
-    public String getStudentName(){
+    public String getStudentName() {
         return studentName;
     }
 
-    public int getStudentID(){
+    public int getStudentID() {
         return studentID;
     }
 
     public static int getSerialNum() {
         int i = 0;
 //        studentName = "Lee";
-        
+
         return serialNum;
     }
 

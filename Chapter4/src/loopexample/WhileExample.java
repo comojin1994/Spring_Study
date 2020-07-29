@@ -7,7 +7,7 @@ public class WhileExample {
 
         while (num <= 10) {
             sum += num;
-            num ++;
+            num++;
         }
         System.out.println(num);
         System.out.println(sum);

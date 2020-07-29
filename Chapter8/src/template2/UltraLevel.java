@@ -1,6 +1,6 @@
 package template2;
 
-public class UltraLevel extends PlayerLevel{
+public class UltraLevel extends PlayerLevel {
     @Override
     public void run() {
         System.out.println("Ultra is running");

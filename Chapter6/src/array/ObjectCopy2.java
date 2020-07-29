@@ -17,7 +17,7 @@ public class ObjectCopy2 {
 //        copyLibrary[3] = new Book();
 //        copyLibrary[4] = new Book();
 
-        for (int i = 0; i < library.length; i++){
+        for (int i = 0; i < library.length; i++) {
             copyLibrary[i] = new Book(library[i].getTitle(), library[i].getAuthor());
 //            copyLibrary[i].setAuthor(library[i].getAuthor());
 //            copyLibrary[i].setTitle(library[i].getTitle());
@@ -26,13 +26,13 @@ public class ObjectCopy2 {
         library[0].setTitle("other");
         library[0].setAuthor("KimKim");
 
-        for(Book book : library){
+        for (Book book : library) {
             book.showBookInfo();
         }
 
         System.out.println("====================");
 
-        for(Book book : copyLibrary){
+        for (Book book : copyLibrary) {
             book.showBookInfo();
         }
     }

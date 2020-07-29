@@ -4,7 +4,7 @@ public class Player {
 
     private PlayerLevel level;
 
-    public Player(){
+    public Player() {
         level = new BeginnerLevel();
         level.showLevelMessage();
     }
@@ -13,12 +13,12 @@ public class Player {
         return level;
     }
 
-    public void upgradeLevel(PlayerLevel level){
+    public void upgradeLevel(PlayerLevel level) {
         this.level = level;
         level.showLevelMessage();
     }
 
-    public void play(int count){
+    public void play(int count) {
         level.go(count);
     }
 }
