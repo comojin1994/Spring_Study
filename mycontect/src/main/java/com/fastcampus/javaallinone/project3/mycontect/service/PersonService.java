@@ -88,4 +88,18 @@ public class PersonService {
 
         personRepository.save(person);
     }
+
+    @Transactional
+    public void delete(Long id) {
+//        Person person = personRepository.findById(id).orElseThrow(() -> new RuntimeException("no id"));
+//
+//        personRepository.delete(person);
+//        personRepository.deleteById(id);
+
+        Person person = personRepository.findById(id).orElseThrow(() -> new RuntimeException("no id"));
+
+        person.setDeleted(true);
+
+        personRepository.save(person);
+    }
 }
